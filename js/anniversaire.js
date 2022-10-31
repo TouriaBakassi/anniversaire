@@ -1,6 +1,6 @@
 var $bttn = $("button");
 var $list = $("ul");
-
+var $image = $("img")
 //................First Method...................................
 
 // $bttn.on("click",()=>{
@@ -23,6 +23,7 @@ var $list = $("ul");
 //................Second Method...................................
 $bttn.on("click", () => {
   $bttn.remove();
+ $image.remove();
   $list.append("<li id=first>You're a great Friend</li>");
   $("li#first").on("click", () => {
     $list.append("<li id=second>Today's Your Birthday</li>");
