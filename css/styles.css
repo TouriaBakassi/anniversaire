@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px ;
   box-sizing: border-box;
   background: linear-gradient(to right, rgb(255, 0, 162), rgb(96, 219, 244));
   display: flex;

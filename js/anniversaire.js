@@ -31,7 +31,7 @@ $bttn.on("click", () => {
       $list.append("<li id=third>Wishing You All The Best</li>");
       $("li#third").on("click", () => {
         $("li").text("🎉HAPPY🎀BIRTHDAY!!🎉");
-        $("body").css("background", "url(../banners-2026059__340.webp)");
+        $("body").css("background", "url(../images.png)");
       });
     });
   });
